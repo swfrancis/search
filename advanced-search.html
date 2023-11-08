@@ -6,6 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div><a href="./index.html">Back to Google Search</a></div>
+    <div>
+        all these words:
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_q">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+    <div>
+        this exact word or phrase:
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_epq">
+            <input type="hidden" name="as_q" value="a">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+    <div>
+        any of these words:
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_oq">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
+    <div>
+        none of these words:
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_eq">
+            <input type="submit" value="Google Search">
+        </form>
+    </div>
 </body>
 </html>
